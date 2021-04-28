@@ -9,9 +9,7 @@ Summary:
 
 ### Binary Converter
 Takes a number in base 10 and converts it to base 2.
-
-'function [base 2] = binaryConverter(base10)'
-
+`function [base 2] = binaryConverter(base10)`
 Inputs:
 - base 10: number in base 10
 
@@ -20,8 +18,7 @@ Outputs:
 
 ### False Position
 Calculates the root of a function using the false position bracketing root method.
-
-'function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit)'
+`function [root, fx, ea, iter] = falsePosition(func, xl, xu, es, maxit)`
 
 Inputs:
 - func: function
@@ -35,10 +32,10 @@ Outputs:
 
 ### LU Factorization
 Performs LU Decomposition with pivoting.
-'function [L, U, P] = luFactor(A)'
+`function [L, U, P] = luFactor(A)`
 
 
 
 ### Simpson's 1/3 Algorithm
 Uses Simpson's 1/3 rule to calculate the integral of a function using tabular data.
-'function [I] = Simpson(x, y)'
+`function [I] = Simpson(x, y)`
