@@ -67,4 +67,4 @@ Inputs:
 - y: array with the dependent variable evaluated at x
 
 Outputs:
-- I: integral calculated using Simpson's 1/3 rule (and trapezoidal rule if there's an uneven number of segments)
+- I: integral calculated using Simpson's 1/3 rule (and trapezoidal rule for the final segment if there is an uneven number of segments)
