@@ -40,12 +40,31 @@ Outputs:
 - ea: approximate error
 - iter: number of iterations completed for the calculation
 
+---
+
 ### LU Factorization
 Performs LU Decomposition with pivoting.
+
 `function [L, U, P] = luFactor(A)`
 
+Inputs:
+- A: array for the decomposition
 
+Outputs:
+- L: lower triangular matrix
+- U: upper triangular matrix
+- P: matrix that tracks pivoting
+
+---
 
 ### Simpson's 1/3 Algorithm
 Uses Simpson's 1/3 rule to calculate the integral of a function using tabular data.
+
 `function [I] = Simpson(x, y)`
+
+Inputs:
+- x: equally spaced array of the independent variable
+- y: array with the dependent variable evaluated at x
+
+Outputs:
+- I: integral calculated using Simpson's 1/3 rule (and trapezoidal rule if there's an uneven number of segments)
