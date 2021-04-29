@@ -7,6 +7,8 @@ Overview:
 - LU Factorization
 - Simpson's 1/3 Algorithm
 
+More detailed information about each algorithm can be found below, or within their corresponding folder.
+
 ---
 
 ### Binary Converter
