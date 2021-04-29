@@ -11,4 +11,4 @@ Takes a number in base 10 and converts it to base 2.
 
 ## Limitations:
 
-Currently, this algorithm only works for positive integers within the range of MATLAB memory and 0. 
+Currently, this algorithm only works for positive integers within the range of MATLAB memory and the number 0. 
