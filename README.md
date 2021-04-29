@@ -5,8 +5,9 @@ Overview:
 - Binary Converter
 - False Position
 - LU Factorization
-- Simpson's 1/3 Algorithm
 - Linear Regression
+- Simpson's 1/3 Algorithm
+
 
 More detailed information about each algorithm can be found below, or within their corresponding folder.
 
@@ -60,20 +61,6 @@ Outputs:
 
 ---
 
-### Simpson's 1/3 Algorithm
-Uses Simpson's 1/3 rule to calculate the integral of a function using tabular data.
-
-`function [I] = Simpson(x, y)`
-
-Inputs:
-- x: equally spaced array of the independent variable
-- y: array with the dependent variable evaluated at x
-
-Outputs:
-- I: integral calculated using Simpson's 1/3 rule (and trapezoidal rule for the final segment if there is an uneven number of segments)
-
----
-
 ### Linear Regression
 
 `function [m, y0, r2] = linregres(x, y, plotting)`
@@ -87,3 +74,17 @@ Outputs:
 - m: slope of linear regression line
 - y0: y intercept of linear regression line
 - r2: r^2 value of linear regression, decimal between 0-1 (1 = 100%)
+
+---
+
+### Simpson's 1/3 Algorithm
+Uses Simpson's 1/3 rule to calculate the integral of a function using tabular data.
+
+`function [I] = Simpson(x, y)`
+
+Inputs:
+- x: equally spaced array of the independent variable
+- y: array with the dependent variable evaluated at x
+
+Outputs:
+- I: integral calculated using Simpson's 1/3 rule (and trapezoidal rule for the final segment if there is an uneven number of segments)
