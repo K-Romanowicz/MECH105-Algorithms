@@ -12,4 +12,4 @@ Performs LU Decomposition with pivoting.
 - P: matrix that tracks pivoting
 
 ## Limitations
-There are still some bugs with the pivoting that I need to fix. Also, there is an lu function in MATLAB that is more efficient than my algorithm.
+To perform LU Decomposition, the input matrix must be a square. There is also an lu function in MATLAB that is more efficient than my algorithm. 
