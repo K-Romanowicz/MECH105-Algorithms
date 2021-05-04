@@ -14,4 +14,4 @@
 - r2: r^2 value of linear regression, decimal between 0-1 (1 = 100%)
 
 ## Limitations:
-The plotting input and section of the function is not as efficient as I'd like. It currently does not accept a version of 'no', and only accepts one version of 'yes'. 
+I'm currently working on improving the plotting variable. Currently, it works well for what I use it for, but that variable is not as versatile as I'd like.
