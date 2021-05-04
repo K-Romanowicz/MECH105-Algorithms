@@ -17,4 +17,4 @@ Calculates the root of a function using the false position bracketing root metho
 - iter: number of iterations completed for the calculation
 
 ## Limitations
-While this algorithm works, there are some errors when manipulating the input variables that I still need to fix. The bounds xl and xu must bracket the root.
+While this algorithm works, there are some errors when manipulating the input variables that I still need to fix. In terms of finding roots in general, xl and xu must bracket the root, so while it has less flexibility than open methods, it will definitely find a root as long as it's bracketed. 
